@@ -1,0 +1,14 @@
+{
+    "log_directory": "logs",
+    "max_file_size_mb": 5,
+    "batch_size": 50,
+    "batch_timeout_seconds": 10,
+    "excluded_keys": [
+        "shift",
+        "ctrl",
+        "alt",
+        "cmd",
+        "windows"
+    ],
+    "log_special_keys": true
+}
